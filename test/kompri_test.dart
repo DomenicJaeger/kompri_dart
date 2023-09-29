@@ -7,13 +7,13 @@ void main() {
   test('calculate', () {
     expect(compress("aaabbccc"), 'a3bbc3');
   });
-  test('calculate', () {
+  test('calculate2', () {
     expect(compress("aaaaabhhaaa"), 'a5bhha3');
   });
-  test('calculate', () {
+  test('calculate3', () {
     expect(compress("aaaaaaaaaaaaa"), 'a13');
   });
-  test('calculate', () {
+  test('calculate4', () {
     expect(compress("ttttttttttjjjlllll"), 't10j3l5');
   });
 }
